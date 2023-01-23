@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Button from "../../UI/Button/Button";
 import styles from "./CourseInput.module.css";
 
-const FormControl = styled.div`
+const FormControl = styles.div`
   margin: 0.5rem 0;
 
   & label {
